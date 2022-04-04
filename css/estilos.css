@@ -1,0 +1,76 @@
+
+
+header {
+    overflow: hidden;
+}
+
+.titulo {
+    text-align: left;
+}
+
+.img_encabezado {
+    width: 100%;
+    height: 270px;
+}
+
+body {
+    padding: 1rem;
+    background-color: rgb(147, 245, 212);
+}
+
+.menu {
+    overflow: hidden;
+    font-size: 15px;
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+    
+}
+
+.shadow {
+    text-align: center;
+    background: linear-gradient(to left, rgb(153, 201, 245), #2663be);
+    
+}
+
+
+
+
+.card:hover {
+    text-align: center;
+    overflow: hidden;
+    margin-left: 5cm;
+    transition: all ease 1.25s;
+}
+
+
+
+.container {
+    display: inline-flex;
+    
+}
+
+.mapa {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.pie_de_pagina {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.Servicios {
+    border-radius: 7rem;
+    display: table;
+}

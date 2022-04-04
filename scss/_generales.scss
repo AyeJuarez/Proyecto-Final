@@ -1,0 +1,92 @@
+
+body {
+    padding: 1rem;
+
+    header {
+        overflow: hidden;
+        .img_encabezado {
+            width: 100%;
+            height: 270px;
+        }
+        .menu {
+            overflow: hidden;
+            font-size: 15px;  
+            margin-top: auto;
+        }
+        .top {
+            height: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: linear-gradient(to left, rgb(153, 201, 245), #2663be);
+            color: aliceblue;
+            
+        }
+        .titulo {
+            text-align: center;
+            justify-content: center;
+            
+        }
+
+        .header_top {
+            display: table;
+            width: 98%;
+            height: 50px;
+            text-align: center;
+        }
+    }
+
+}
+
+
+
+.menu {
+    margin-top: 2cm;
+
+    a {
+        text-decoration: none;
+        padding: 2px;
+        color: black;
+    }
+}
+
+.shadow {
+    text-align: $centrado;
+    background: linear-gradient(to left, rgb(153, 201, 245), #2663be);
+    
+}
+
+
+
+
+.card:hover {
+    text-align: $centrado;
+    overflow: hidden;
+    margin-left: 5cm;
+    transition: all ease 1.25s;
+}
+
+
+
+.mapa {
+    justify-content: $centrado;
+    align-content: $centrado;
+    text-align: $centrado;
+}
+
+
+
+.pie_de_pagina {
+    justify-content: $centrado;
+    align-content: $centrado;
+    text-align: $centrado;
+    background: linear-gradient(to left, rgb(153, 201, 245), #2663be);
+    color: aliceblue;
+    background-size: cover;
+    
+}
+
+.Servicios {
+    border-radius: 7rem;
+    display: table;
+}
