@@ -24,40 +24,43 @@ body {
       width: 98%;
       height: 50px;
       text-align: center; }
-
-.menu {
-  margin-top: 2cm; }
-  .menu a {
-    text-decoration: none;
-    padding: 2px;
-    color: black; }
-
-.shadow {
-  text-align: center;
-  background: linear-gradient(to left, #99c9f5, #2663be); }
-
-.card:hover {
-  text-align: center;
-  overflow: hidden;
-  margin-left: 5cm;
-  transition: all ease 1.25s; }
-
-.mapa {
-  justify-content: center;
-  align-content: center;
-  text-align: center; }
-
-.pie_de_pagina {
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  background: linear-gradient(to left, #99c9f5, #2663be);
-  color: aliceblue;
-  background-size: cover; }
-
-.Servicios {
-  border-radius: 7rem;
-  display: table; }
+  body .container {
+    align-content: center;
+    justify-content: center;
+    text-align: center; }
+  body .Servicios {
+    border-radius: 7rem;
+    display: table;
+    width: 250px;
+    height: 250px; }
+  body .contenedor {
+    align-content: center;
+    justify-content: center; }
+  body .menu {
+    margin-top: 2cm; }
+    body .menu a {
+      text-decoration: none;
+      padding: 2px;
+      color: black; }
+  body .shadow {
+    text-align: center;
+    background: linear-gradient(to left, #99c9f5, #2663be); }
+  body .card:hover {
+    text-align: center;
+    overflow: hidden;
+    margin-left: 5cm;
+    transition: all ease 1.25s; }
+  body .mapa {
+    justify-content: center;
+    align-content: center;
+    text-align: center; }
+  body .pie_de_pagina {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(to left, #99c9f5, #2663be);
+    color: aliceblue;
+    background-size: cover; }
 
 .boton-facebook {
   padding: 10px;

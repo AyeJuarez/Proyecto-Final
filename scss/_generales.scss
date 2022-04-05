@@ -35,58 +35,67 @@ body {
             text-align: center;
         }
     }
-
-}
-
-
-
-.menu {
-    margin-top: 2cm;
-
-    a {
-        text-decoration: none;
-        padding: 2px;
-        color: black;
+    .container {
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Servicios {
+        border-radius: 7rem;
+        display: table;
+        width: 250px;
+        height: 250px;
+    }
+    .contenedor {
+        align-content: center;
+        justify-content: center;
+    }
+    .menu {
+        margin-top: 2cm;
+    
+        a {
+            text-decoration: none;
+            padding: 2px;
+            color: black;
+        }
+    }
+    
+    .shadow {
+        text-align: $centrado;
+        background: linear-gradient(to left, rgb(153, 201, 245), #2663be);
+        
+    }
+    
+    
+    
+    
+    .card:hover {
+        text-align: $centrado;
+        overflow: hidden;
+        margin-left: 5cm;
+        transition: all ease 1.25s;
+    }
+    
+    
+    
+    .mapa {
+        justify-content: $centrado;
+        align-content: $centrado;
+        text-align: $centrado;
+    }
+    
+    
+    
+    .pie_de_pagina {
+        justify-content: $centrado;
+        align-content: $centrado;
+        text-align: $centrado;
+        background: linear-gradient(to left, rgb(153, 201, 245), #2663be);
+        color: aliceblue;
+        background-size: cover;
+        
     }
 }
 
-.shadow {
-    text-align: $centrado;
-    background: linear-gradient(to left, rgb(153, 201, 245), #2663be);
-    
-}
 
 
-
-
-.card:hover {
-    text-align: $centrado;
-    overflow: hidden;
-    margin-left: 5cm;
-    transition: all ease 1.25s;
-}
-
-
-
-.mapa {
-    justify-content: $centrado;
-    align-content: $centrado;
-    text-align: $centrado;
-}
-
-
-
-.pie_de_pagina {
-    justify-content: $centrado;
-    align-content: $centrado;
-    text-align: $centrado;
-    background: linear-gradient(to left, rgb(153, 201, 245), #2663be);
-    color: aliceblue;
-    background-size: cover;
-    
-}
-
-.Servicios {
-    border-radius: 7rem;
-    display: table;
-}
